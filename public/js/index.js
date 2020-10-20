@@ -1,7 +1,7 @@
 let countHeartOver = 0;
 let audio = new Audio("../music/beat.mp3");
 
-for (i = 0; i < 800; i++)
+for (i = 0; i < 300; i++)
   document.body.innerHTML += '<div id="' + i + '" class="TwitterHeart"></div>';
 
 window.addEventListener("mouseover", HeartAnimation);
